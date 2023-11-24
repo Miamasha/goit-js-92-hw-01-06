@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw6</title>
+</head>
+<body>
+    <h3>This is goit-js-hw-06</h3>
+
+    <h4>Task 1. Expected answers to check in console:</h4>
+    <p>
+        customer.setDiscount(0.15); <br>
+        console.log(customer.getDiscount()); // 0.15 <br>
+        customer.addOrder(5000, "Steak"); <br>
+        console.log(customer.getBalance()); // 19750 <br>
+        console.log(customer.getOrders()); // ["Burger", "Pizza", "Salad", "Steak"] <br>
+        <br>
+    </p>
+
+    <h4>Task 2. Expected answers to check in console:</h4>
+    <p>
+        const storage = new Storage(["Nanitoids", "Prolonger", "Antigravitator"]); <br>
+        console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"] <br>
+        storage.addItem("Droid"); <br>
+        console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator", "Droid"] <br>
+        storage.removeItem("Prolonger"); <br>
+        console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"] <br>
+        <br>
+    </p>
+
+    <h4>Task 3. Expected answers to check in console:</h4>
+    <p>
+        const builder = new StringBuilder("."); <br>
+        console.log(builder.getValue()); // "." <br>
+        builder.padStart("^"); <br>
+        console.log(builder.getValue()); // "^." <br>
+        builder.padEnd("^"); <br>
+        console.log(builder.getValue()); // "^.^" <br>
+        builder.padBoth("="); <br>
+        console.log(builder.getValue()); // "=^.^=" <br>
+        <br>
+    </p>
+
+    <a href="index.html"><h3>Back</h3></a>
+    
+    <script src="task-6-1.js" defer></script>
+    <script src="task-6-2.js" defer></script>
+    <script src="task-6-3.js" defer></script>
+</body>
+</html>

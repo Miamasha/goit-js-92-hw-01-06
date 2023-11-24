@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw3</title>
+</head>
+<body>
+    <h3>This is goit-js-hw-03</h3>
+
+    <h4>Task 1. Expected answers to check in console:</h4>
+    <p>
+        console.log(slugify("Arrays for begginers")); // "arrays-for-begginers"<br>
+        console.log(slugify("English for developer")); // "english-for-developer"<br>
+        console.log(slugify("Ten secrets of JavaScript")); // "ten-secrets-of-javascript"<br>
+        console.log(slugify("How to become a JUNIOR developer in TWO WEEKS")); // "how-to-become-a-junior-developer-in-two-weeks" <br>
+    </p>
+
+    <h4>Task 2. Expected answers to check in console:</h4>
+    <p>
+        console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3)); // ["Mango", "Poly", "Ajax"] <br>
+        console.log(makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4)); // ["Mango", "Poly", "Houston", "Ajax"] <br>
+        console.log(makeArray(["Mango"], ["Ajax", "Chelsea", "Poly", "Houston"], 3)); // ["Mango", "Ajax", "Chelsea"] <br>
+        console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2)); // ["Earth", "Jupiter"] <br>
+        console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], <b>7</b>)); // ["Earth", "Jupiter", "Neptune", "Uranus"] <br>
+        // Above <b>7</b> instead of original 4. <br>
+        console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0)); // []  <br>
+    </p>
+
+    <h4>Task 3. Expected answers to check in console:</h4>
+    <p>
+        console.log(filterArray([1, 2, 3, 4, 5], 3)); // [4, 5] <br>
+        console.log(filterArray([1, 2, 3, 4, 5], 4)); // [5] <br>
+        console.log(filterArray([1, 2, 3, 4, 5], 5)); // [] <br>
+        console.log(filterArray([12, 24, 8, 41, 76], 38)); // [41, 76] <br>
+        console.log(filterArray([12, 24, 8, 41, 76], 20)); // [24, 41, 76] <br>
+    </p>
+
+    <a href="index.html"><h3>Back</h3></a>
+    
+    <script src="task-3-1.js" defer></script>
+    <script src="task-3-2.js" defer></script>
+    <script src="task-3-3.js" defer></script>
+</body>
+</html>
